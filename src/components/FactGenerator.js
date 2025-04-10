@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 
 const FactGenerator = () => {
     const [fact,setFact] = useState('');
-    const [loading,setLoading]=useState(false);
+    const [loading,setLoading]=useState(true);
     const fetchFact=async()=>{
         setLoading(false);
         try
